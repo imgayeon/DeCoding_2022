@@ -1,0 +1,82 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {background-color: rgb(255, 246, 220);}
+
+.main{
+    width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(252, 181, 74);
+}
+
+input[type="text"]{
+    width: 385px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: white;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button{
+    width: 65px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: rgb(238, 183, 119);
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.todolist{
+    border: 2px solid black;
+    margin-top: 30px;
+    padding: 10px 40px 10px 0px;
+    background: rgb(182, 128, 57);
+    border-radius: 30px;
+    color: white;
+}
+
+a{
+    float: right;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+a:hover{
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+.del{
+    width: 25px;
+    height: 30px;
+    font-size: 0.8em;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+li{
+    border-bottom: 2px solid rgb(187, 187, 187);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
